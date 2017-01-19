@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_log_in"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rizwan444.das.LogINActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_below="@+id/editTxt_UserID"
+        android:layout_alignLeft="@+id/editTxt_UserID"
+        android:layout_alignStart="@+id/editTxt_UserID"
+        android:layout_marginTop="57dp"
+        android:id="@+id/editTxt_Password"
+        android:hint="Password" />
+
+    <TextView
+        android:text="USER ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="93dp"
+        android:id="@+id/txtV_UserID"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtV_Password"
+        android:layout_alignBaseline="@+id/editTxt_Password"
+        android:layout_alignBottom="@+id/editTxt_Password"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editTxt_UserID"
+        android:hint="Email"
+        android:layout_alignBaseline="@+id/txtV_UserID"
+        android:layout_alignBottom="@+id/txtV_UserID"
+        android:layout_alignLeft="@+id/btn_LogIN"
+        android:layout_alignStart="@+id/btn_LogIN" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_LogIN"
+        android:layout_alignRight="@+id/btn_LogIN"
+        android:layout_alignEnd="@+id/btn_LogIN"
+        android:layout_marginTop="43dp"
+        android:id="@+id/txtV_Msg" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTxt_Password"
+        android:layout_toRightOf="@+id/txtV_UserID"
+        android:layout_toEndOf="@+id/txtV_UserID"
+        android:layout_marginTop="82dp"
+        android:id="@+id/btn_LogIn" />
+</RelativeLayout>
