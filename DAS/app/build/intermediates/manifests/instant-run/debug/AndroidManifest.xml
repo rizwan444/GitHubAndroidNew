@@ -24,6 +24,8 @@
         </activity>
         <activity android:name="com.example.rizwan444.das.NewAccountActivity" />
         <activity android:name="com.example.rizwan444.das.LogINActivity" />
+        <activity android:name="com.example.rizwan444.das.SharedPrefSaveData" />
+        <activity android:name="com.example.rizwan444.das.SPWelcome" />
     </application>
 
 </manifest>
