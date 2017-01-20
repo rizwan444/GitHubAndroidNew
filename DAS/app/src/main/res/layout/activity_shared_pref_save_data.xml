@@ -8,6 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/AddedColorBG1"
     tools:context="com.example.rizwan444.das.SharedPrefSaveData">
 
     <TextView
@@ -18,6 +19,8 @@
         android:layout_alignRight="@+id/textView"
         android:layout_alignEnd="@+id/textView"
         android:layout_marginTop="80dp"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
         android:id="@+id/textView2" />
 
     <TextView
@@ -25,6 +28,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
@@ -39,6 +44,7 @@
         android:layout_alignBottom="@+id/textView2"
         android:layout_alignLeft="@+id/editTxt_Uname"
         android:layout_alignStart="@+id/editTxt_Uname"
+        android:background="@color/AddedColorTF1"
         android:hint="Password" />
 
     <EditText
@@ -46,6 +52,7 @@
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
+
         android:layout_marginRight="31dp"
         android:layout_marginEnd="31dp"
         android:id="@+id/editTxt_Uname"
@@ -53,6 +60,7 @@
         android:layout_alignBottom="@+id/textView"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
+        android:background="@color/AddedColorTF1"
         android:hint="User Name" />
 
     <Button
@@ -65,7 +73,9 @@
         android:layout_marginLeft="28dp"
         android:layout_marginStart="28dp"
         android:id="@+id/btn_Save"
-        android:textStyle="normal|bold" />
+        android:textStyle="normal|bold"
+        android:width="125dp"
+        android:background="@color/AddedColorBtn1"/>
 
     <Button
         android:text="LOG IN"
@@ -76,7 +86,9 @@
         android:layout_alignStart="@+id/btn_Save"
         android:layout_marginTop="57dp"
         android:id="@+id/btn_loginSP"
-        android:textStyle="normal|bold" />
+        android:textStyle="normal|bold"
+        android:width="125dp"
+        android:background="@color/AddedColorBtn1"/>
 
     <TextView
         android:text="TextView"

@@ -8,6 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/AddedColorBG1"
     tools:context="com.example.rizwan444.das.LogINActivity">
 
     <TextView
@@ -38,7 +39,9 @@
         android:layout_toRightOf="@+id/txtV_UserID"
         android:layout_toEndOf="@+id/txtV_UserID"
         android:layout_marginTop="82dp"
-        android:id="@+id/btn_LogIn" />
+        android:id="@+id/btn_LogIn"
+        android:width="125dp"
+        android:background="@color/AddedColorBtn1"/>
 
     <EditText
         android:layout_width="wrap_content"
@@ -52,7 +55,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_marginRight="12dp"
-        android:layout_marginEnd="12dp" />
+        android:layout_marginEnd="12dp"
+        android:background="@color/AddedColorTF1"/>
 
     <EditText
         android:layout_width="wrap_content"
@@ -63,7 +67,8 @@
         android:hint="Email"
         android:layout_alignTop="@+id/txtV_UserID"
         android:layout_alignLeft="@+id/editTxt_Password"
-        android:layout_alignStart="@+id/editTxt_Password" />
+        android:layout_alignStart="@+id/editTxt_Password"
+        android:background="@color/AddedColorTF1"/>
 
     <TextView
         android:text="USER ID"
