@@ -14,8 +14,12 @@ public class SPWelcome extends AppCompatActivity {
 
 
         v=(TextView) findViewById(R.id.txtV_RcvMsg);
+        v.setTextColor(getResources().getColor(R.color.highlightedTextViewColor));
 
-        v.setText( getIntent().getExtras().toString());
+        v.setText( "Welcome "+getIntent().getExtras().getString("Welcome"));
+        v.setTextSize(25);
+
+        //v.setTextAppearance(R.style.boldText); //Require API 23
 
 
        /* Bundle data=getIntent().getExtras();

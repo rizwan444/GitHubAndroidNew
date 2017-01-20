@@ -40,6 +40,8 @@ public class SharedPrefSaveData extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+
+
                 SharedPreferences sharepref= getSharedPreferences("LoginInfo", Context.MODE_PRIVATE);
                 String name=sharepref.getString("User_Name","Got Nothing....");
                 String pass=sharepref.getString("Password","Got Nothing....");
