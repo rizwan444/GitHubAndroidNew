@@ -6,4 +6,5 @@
     <color name="AddedColorBG1">#80d8ff</color>
     <color name="AddedColorBtn1">#ce93d8</color>
     <color name="AddedColorTF1">#f3e5f5</color>
+    <color name="TextVColorRed">#f44336</color>
 </resources>

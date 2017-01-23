@@ -5,33 +5,96 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="129830885135981"
+    timestamp="82959370313093"
     token="736797072078335080"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="786" />
+        duration="302" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="70" />
     <task
         name="instant-run-transform"
-        duration="869" />
+        duration="41" />
     <task
         name="verifier"
-        duration="167" />
+        duration="2" />
 
     <artifact
-        location="C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
     <build
-        timestamp="129830885135981"
+        timestamp="82723648453414"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="82821633286013"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\builds\debug\82821633286013\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="82842746912617"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\builds\debug\82842746912617\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="82860523590633"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\builds\debug\82860523590633\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="82874965387485"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\builds\debug\82874965387485\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="82887859591720"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\builds\debug\82887859591720\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="82901868622946"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\builds\debug\82901868622946\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="82915491903138"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\builds\debug\82915491903138\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="82933904801628"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\builds\debug\82933904801628\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="82959370313093"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

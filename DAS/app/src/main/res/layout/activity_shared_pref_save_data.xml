@@ -64,20 +64,6 @@
         android:hint="User Name" />
 
     <Button
-        android:text="Save DATA"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_toRightOf="@+id/textView2"
-        android:layout_toEndOf="@+id/textView2"
-        android:layout_marginLeft="28dp"
-        android:layout_marginStart="28dp"
-        android:id="@+id/btn_Save"
-        android:textStyle="normal|bold"
-        android:width="125dp"
-        android:background="@color/AddedColorBtn1"/>
-
-    <Button
         android:text="LOG IN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -90,13 +76,42 @@
         android:width="125dp"
         android:background="@color/AddedColorBtn1"/>
 
+    <Button
+        android:text="Save DATA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_Save"
+        android:textStyle="normal|bold"
+        android:width="125dp"
+        android:background="@color/AddedColorBtn1"
+        android:layout_below="@+id/editTxt_Password"
+        android:layout_alignLeft="@+id/editTxt_Password"
+        android:layout_alignStart="@+id/editTxt_Password"
+        android:layout_marginTop="32dp"
+        />
+
     <TextView
         android:text="TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/txtV_resultSP"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/editTxt_Password"
+        android:layout_alignEnd="@+id/editTxt_Password"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:text="Data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/btn_loginSP"
+        android:layout_alignLeft="@+id/btn_loginSP"
+        android:layout_alignStart="@+id/btn_loginSP"
+        android:layout_marginTop="29dp"
+        android:id="@+id/btn_displayDta"
         android:layout_alignRight="@+id/btn_loginSP"
         android:layout_alignEnd="@+id/btn_loginSP"
-        android:layout_marginTop="46dp"
-        android:id="@+id/txtV_resultSP" />
+        android:textStyle="normal|bold"
+        android:width="125dp"
+        android:background="@color/AddedColorBtn1"/>
 </RelativeLayout>

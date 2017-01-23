@@ -52,6 +52,10 @@
         "source": "C:\\Users\\rizwan444\\AndroidStudioProjects\\DAS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
+        "merged": "C:\\Users\\rizwan444\\AndroidStudioProjects\\DAS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rizwan.jpg",
+        "source": "C:\\Users\\rizwan444\\AndroidStudioProjects\\DAS\\app\\src\\main\\res\\drawable\\rizwan.jpg"
+    },
+    {
         "merged": "C:\\Users\\rizwan444\\AndroidStudioProjects\\DAS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
         "source": "C:\\Users\\rizwan444\\AndroidStudioProjects\\DAS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\notification_tile_bg.xml"
     },

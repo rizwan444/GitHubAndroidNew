@@ -22,6 +22,13 @@
         android:textSize="20dp"
         android:textAppearance="@style/boldText"
         />
+    <TextView
+        android:text="Hellooo"
+        android:textColor="@color/highlightedTextViewColor"
+        android:id="@+id/txtV_checkLogIn"
+        android:layout_below="@+id/txtV_SIGNUPActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
     <TextView
         android:text="First Name"
@@ -91,7 +98,7 @@
         android:layout_marginBottom="18dp"
         android:id="@+id/btn_SIGNUP"
         android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/txtV_ContactNumber"
+        android:layout_centerHorizontal="true"
         android:width="125dp"
         android:background="@color/AddedColorBtn1"/>
 

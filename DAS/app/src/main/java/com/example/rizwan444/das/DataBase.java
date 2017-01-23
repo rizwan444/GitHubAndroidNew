@@ -19,7 +19,9 @@ public class DataBase extends SQLiteOpenHelper {
     SQLiteDatabase db;
     private static String DB_PATH = "/data/data/DAS/databases/";
     private static String DB_NAME = "DAS.db";
-    public static final String TABLE_NAME = "PATIENTS_ACCOUNT";
+    public static final String PTABLE_NAME = "PATIENTS_ACCOUNT";
+    public static final String DTABLE_NAME = "PATIENTS_ACCOUNT";
+    public static final String ApptTABLE_NAME = "PATIENTS_ACCOUNT";
 
     public static final String COL_1 = "FIRSTNAME";
     public static final String COL_2 = "LASTNAME";
@@ -35,7 +37,9 @@ public class DataBase extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
-        sqLiteDatabase.execSQL("CREATE TABLE " + TABLE_NAME + "(ID INTEGER PRIMARY KEY AUTOINCREMENT, FIRSTNAME TEXT, LASTNAME TEXT, EMAIL TEXT,PASSWORD TEXT, CONTACT TEXT );");
+        sqLiteDatabase.execSQL("CREATE TABLE " + PTABLE_NAME + "(ID INTEGER PRIMARY KEY AUTOINCREMENT, FIRSTNAME TEXT, LASTNAME TEXT, EMAIL TEXT,PASSWORD TEXT, CONTACT TEXT );");
+        sqLiteDatabase.execSQL("CREATE TABLE " + DTABLE_NAME + "(ID INTEGER PRIMARY KEY AUTOINCREMENT, FIRSTNAME TEXT, LASTNAME TEXT, EMAIL TEXT,PASSWORD TEXT, CONTACT TEXT );");
+        sqLiteDatabase.execSQL("CREATE TABLE " + ApptTABLE_NAME + "(ID INTEGER PRIMARY KEY AUTOINCREMENT, FIRSTNAME TEXT, LASTNAME TEXT, EMAIL TEXT,PASSWORD TEXT, CONTACT TEXT );");
 
     }
 
@@ -54,7 +58,7 @@ public class DataBase extends SQLiteOpenHelper {
         contentValues.put(COL_4, password);
         contentValues.put(COL_5, contact);
 
-        long result = db.insert(TABLE_NAME, null, contentValues);
+        long result = db.insert(PTABLE_NAME, null, contentValues);
         db.close();
         if (result == -1) {
             return false;
@@ -65,27 +69,28 @@ public class DataBase extends SQLiteOpenHelper {
         // Log.i("TAG","Inserted");
     }
 
-    /*
 
-    public Cursor list_all(String userid, String password) {
+
+    /* code==009 in LogINActivity
+    public boolean LOGIN(String email, String password) {
         Cursor cursor;
-            Log.i("Database.java", userid);
-
-
         String q="SELECT * FROM " + TABLE_NAME;
+        String Query="SELECT * FROM " + TABLE_NAME + " WHERE " + COL_3 + " = " +"'"+email+"'" + COL_4 + " = " + "'"+password+"'";
             // db = this.getReadableDatabase();
-             cursor = db.rawQuery(q, null);
+             cursor = db.rawQuery(Query, null);
+             cursor.moveToFirst();
+        if(cursor.getCount()>0){
+            return true;
+        }
+        else {
+            return false;
+        }
 
-            cursor.close();
+ }*/
 
-
-        return cursor;
-
-
-    }*/
     public String searchpass(String email) {
         db = this.getReadableDatabase();
-        String query = "SELECT * FROM " + TABLE_NAME ;
+        String query = "SELECT * FROM " + PTABLE_NAME ;
         Cursor cursor = db.rawQuery(query, null);
         String userid, password, result = null;
         password = null;
@@ -97,9 +102,9 @@ public class DataBase extends SQLiteOpenHelper {
                 userid = cursor.getString(3);
                 result=userid;
 
-                if (userid.equals(cursor.getString(3))) {
+                if (email.equals(userid.toString())) {
                     password = cursor.getString(4);
-                    result=password;
+                    //result=password;
                     break;
                 }
 

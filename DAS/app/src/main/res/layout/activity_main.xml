@@ -11,6 +11,15 @@
     android:background="@color/AddedColorBG1"
     tools:context="com.example.rizwan444.das.MainActivity">
 
+    <TextView
+        android:id="@+id/txtV_loginperson"
+        android:text="Not Logged IN"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
     <Button
         android:text="Search"
         android:layout_width="wrap_content"
@@ -69,4 +78,45 @@
         android:width="200dp"
 
         android:background="@color/AddedColorBtn1"/>
+    <Button
+        android:text="Fragments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_Fragment"
+        android:width="200dp"
+        android:background="@color/AddedColorBtn1"
+        android:layout_below="@+id/btn_SharedPreference"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:text="Single Fragments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_SingleFragment"
+        android:width="200dp"
+        android:background="@color/AddedColorBtn1"
+        android:layout_below="@+id/btn_Fragment"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:text="Log Out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/AddedColorBtn1"
+        android:layout_alignBaseline="@+id/txtV_loginperson"
+        android:layout_alignBottom="@+id/txtV_loginperson"
+        android:layout_alignRight="@+id/btn_LogIn"
+        android:layout_alignEnd="@+id/btn_LogIn"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp"
+        android:id="@+id/btn_LogOut"/>
+
+    <Button
+        android:text="Refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_Refresh"
+        android:background="@color/AddedColorBtn1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>

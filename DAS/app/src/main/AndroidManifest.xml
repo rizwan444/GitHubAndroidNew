@@ -18,7 +18,9 @@
         <activity android:name=".NewAccountActivity" />
         <activity android:name=".LogINActivity" />
         <activity android:name=".SharedPrefSaveData" />
-        <activity android:name=".SPWelcome"></activity>
+        <activity android:name=".SPWelcome" />
+        <activity android:name=".FragmentsMeme" />
+        <activity android:name=".Singlefragment"></activity>
     </application>
 
 </manifest>

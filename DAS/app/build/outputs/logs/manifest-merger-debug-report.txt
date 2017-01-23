@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:3:5-40
 		INJECTED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidMani
 		INJECTED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:5:5-22:19
+ADDED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:5:5-24:19
 MERGED from [com.android.support:design:25.1.0] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\AndroidManifest.xml:22:5-20
@@ -63,9 +63,17 @@ ADDED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidMani
 	android:name
 		ADDED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:20:19-53
 activity#com.example.rizwan444.das.SPWelcome
-ADDED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:21:9-56
+ADDED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:21:9-47
 	android:name
 		ADDED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:21:19-44
+activity#com.example.rizwan444.das.FragmentsMeme
+ADDED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:22:9-51
+	android:name
+		ADDED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:22:19-48
+activity#com.example.rizwan444.das.Singlefragment
+ADDED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:23:9-61
+	android:name
+		ADDED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:23:19-49
 uses-sdk
 INJECTED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.1.0] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\AndroidManifest.xml:21:5-23:62

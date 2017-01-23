@@ -12,6 +12,10 @@
         "source": "C:\\Users\\rizwan444\\AndroidStudioProjects\\DAS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
+        "merged": "C:\\Users\\rizwan444\\AndroidStudioProjects\\DAS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\top_section_fragment.xml",
+        "source": "C:\\Users\\rizwan444\\AndroidStudioProjects\\DAS\\app\\src\\main\\res\\layout\\top_section_fragment.xml"
+    },
+    {
         "merged": "C:\\Users\\rizwan444\\AndroidStudioProjects\\DAS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
         "source": "C:\\Users\\rizwan444\\AndroidStudioProjects\\DAS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_dialog_title_material.xml"
     },
@@ -136,6 +140,10 @@
         "source": "C:\\Users\\rizwan444\\AndroidStudioProjects\\DAS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_action.xml"
     },
     {
+        "merged": "C:\\Users\\rizwan444\\AndroidStudioProjects\\DAS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fragments_meme.xml",
+        "source": "C:\\Users\\rizwan444\\AndroidStudioProjects\\DAS\\app\\src\\main\\res\\layout\\activity_fragments_meme.xml"
+    },
+    {
         "merged": "C:\\Users\\rizwan444\\AndroidStudioProjects\\DAS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
         "source": "C:\\Users\\rizwan444\\AndroidStudioProjects\\DAS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_media_custom.xml"
     },
@@ -214,6 +222,14 @@
     {
         "merged": "C:\\Users\\rizwan444\\AndroidStudioProjects\\DAS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "C:\\Users\\rizwan444\\AndroidStudioProjects\\DAS\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\rizwan444\\AndroidStudioProjects\\DAS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_singlefragment.xml",
+        "source": "C:\\Users\\rizwan444\\AndroidStudioProjects\\DAS\\app\\src\\main\\res\\layout\\activity_singlefragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\rizwan444\\AndroidStudioProjects\\DAS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bottom_section_fragment.xml",
+        "source": "C:\\Users\\rizwan444\\AndroidStudioProjects\\DAS\\app\\src\\main\\res\\layout\\bottom_section_fragment.xml"
     },
     {
         "merged": "C:\\Users\\rizwan444\\AndroidStudioProjects\\DAS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",

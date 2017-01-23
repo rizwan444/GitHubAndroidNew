@@ -25,6 +25,8 @@
         <activity android:name="com.example.rizwan444.das.LogINActivity" />
         <activity android:name="com.example.rizwan444.das.SharedPrefSaveData" />
         <activity android:name="com.example.rizwan444.das.SPWelcome" />
+        <activity android:name="com.example.rizwan444.das.FragmentsMeme" />
+        <activity android:name="com.example.rizwan444.das.Singlefragment" />
     </application>
 
 </manifest>
