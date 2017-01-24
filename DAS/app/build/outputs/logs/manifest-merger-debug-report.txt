@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:3:5-40
 		INJECTED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml
@@ -14,12 +14,16 @@ ADDED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidMani
 		INJECTED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:5:5-24:19
+ADDED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:5:5-26:19
 MERGED from [com.android.support:design:25.1.0] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\AndroidManifest.xml:23:5-20
 MERGED from [com.android.support:transition:25.1.0] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\AndroidManifest.xml:19:5-21:19
 MERGED from [com.android.support:support-v4:25.1.0] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\AndroidManifest.xml:25:5-20
@@ -71,9 +75,17 @@ ADDED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidMani
 	android:name
 		ADDED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:22:19-48
 activity#com.example.rizwan444.das.Singlefragment
-ADDED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:23:9-61
+ADDED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:23:9-52
 	android:name
 		ADDED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:23:19-49
+activity#com.example.rizwan444.das.SearchDoctor
+ADDED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:24:9-50
+	android:name
+		ADDED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:24:19-47
+activity#com.example.rizwan444.das.Appointment
+ADDED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:25:9-58
+	android:name
+		ADDED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:25:19-46
 uses-sdk
 INJECTED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.1.0] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\AndroidManifest.xml:21:5-23:62
@@ -82,6 +94,10 @@ MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\rizwa
 MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\AndroidManifest.xml:21:5-43
 MERGED from [com.android.support:recyclerview-v7:25.1.0] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.0\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:transition:25.1.0] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\AndroidManifest.xml:17:5-42
 MERGED from [com.android.support:support-v4:25.1.0] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\AndroidManifest.xml:21:5-23:63
@@ -96,3 +112,31 @@ MERGED from [com.android.support:support-compat:25.1.0] C:\Users\rizwan444\Andro
 	android:minSdkVersion
 		INJECTED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\rizwan444\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\AndroidManifest.xml:19:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\AndroidManifest.xml:20:22-64
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\rizwan444\AndroidStudioProjects\DAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\AndroidManifest.xml:20:20-65

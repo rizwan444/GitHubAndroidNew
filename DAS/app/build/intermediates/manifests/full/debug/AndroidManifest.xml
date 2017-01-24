@@ -8,6 +8,14 @@
         android:minSdkVersion="15"
         android:targetSdkVersion="25" />
 
+    <!-- Include required permissions for Google Maps API to run. -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -27,6 +35,16 @@
         <activity android:name="com.example.rizwan444.das.SPWelcome" />
         <activity android:name="com.example.rizwan444.das.FragmentsMeme" />
         <activity android:name="com.example.rizwan444.das.Singlefragment" />
+        <activity android:name="com.example.rizwan444.das.SearchDoctor" />
+        <activity android:name="com.example.rizwan444.das.Appointment" />
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
 
 </manifest>

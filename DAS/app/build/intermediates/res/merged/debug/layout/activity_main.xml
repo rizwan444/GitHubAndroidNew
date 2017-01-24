@@ -21,16 +21,6 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:text="Search"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
-        android:id="@+id/btn_Search"
-        android:background="@color/AddedColorBtn1"
-        android:width="125dp"
-        android:layout_alignParentTop="true" />
-
-    <Button
         android:text="LOG IN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -119,4 +109,16 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/btn_Search"
+        android:background="@color/AddedColorBtn1"
+        android:width="125dp"
+        android:layout_below="@+id/btn_LogOut"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
