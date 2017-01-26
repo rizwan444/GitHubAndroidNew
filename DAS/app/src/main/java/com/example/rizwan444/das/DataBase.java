@@ -130,6 +130,45 @@ public class DataBase extends SQLiteOpenHelper {
 
         return docID;
  }
+    public String getPatientID(String email){
+        SQLiteDatabase db= this.getReadableDatabase();
+        String query="SELECT *  FROM "+PTABLE_NAME+" WHERE EMAIL = '"+email+"'";
+        Cursor cursor= db.rawQuery(query,null);
+        String PatientID="";
+        if (cursor.moveToFirst()) {
+            PatientID=cursor.getString(0);
+        }
+
+        return PatientID;
+    }
+    public Cursor getAppData(String email){
+        SQLiteDatabase db= this.getReadableDatabase();
+        String query="SELECT * FROM"+ApptTABLE_NAME;
+        Cursor cursor=db.rawQuery(query,null);
+        return cursor;
+
+    }
+
+    public boolean BOOKING_APPOINTMENT(String patientid, String docid, String date, String time) {
+
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues contentValues = new ContentValues();
+        contentValues.put(ApptCOL_4, patientid);
+        contentValues.put(ApptCOL_6, docid);
+        contentValues.put(ApptCOL_7, date);
+        contentValues.put(ApptCOL_8, time);
+
+
+        long result = db.insert(ApptTABLE_NAME, null, contentValues);
+        db.close();
+        if (result == -1) {
+            return false;
+        } else
+            return true;
+
+        // this.getWritableDatabase().insertOrThrow("PATIENTS_ACCOUNT", "", contentValues);
+        // Log.i("TAG","Inserted");
+    }
 
 
     /* code==009 in LogINActivity

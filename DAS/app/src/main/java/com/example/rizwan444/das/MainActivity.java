@@ -19,7 +19,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //Calling Constructor OF DATABASE_HELPER CLASS
         dataBase = new DataBase(this);
+
+        //SETTING ALL BUTTONS AND A TEXTVIEW
         Button btnSIGNUP= (Button)  findViewById(R.id.btn_SIGNUP);
         Button btnLogIn= (Button) findViewById(R.id.btn_LogIn);
         Button btnCheck= (Button) findViewById(R.id.btn_Check);
@@ -31,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
         Button btnRefresh=(Button) findViewById(R.id.btn_Refresh);
         VMSG1=(TextView) findViewById(R.id.txtV_loginperson);
 
+        //GETTING VALUES OF SHARED_PREFRENCE (LOGIN PERSON DETAILS) "LoginInfo"
         SharedPreferences sharepref= getSharedPreferences("LoginInfo", Context.MODE_PRIVATE);
         String name1=sharepref.getString("User_Name","Got Nothing....");
         String pass1=sharepref.getString("Password","Got Nothing....");

@@ -192,6 +192,10 @@
         "source": "C:\\Users\\rizwan444\\AndroidStudioProjects\\DAS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_screen_simple.xml"
     },
     {
+        "merged": "C:\\Users\\rizwan444\\AndroidStudioProjects\\DAS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_profile.xml",
+        "source": "C:\\Users\\rizwan444\\AndroidStudioProjects\\DAS\\app\\src\\main\\res\\layout\\activity_user_profile.xml"
+    },
+    {
         "merged": "C:\\Users\\rizwan444\\AndroidStudioProjects\\DAS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
         "source": "C:\\Users\\rizwan444\\AndroidStudioProjects\\DAS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_alert_dialog_title_material.xml"
     },

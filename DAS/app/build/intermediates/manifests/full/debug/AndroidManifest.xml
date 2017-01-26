@@ -37,6 +37,7 @@
         <activity android:name="com.example.rizwan444.das.Singlefragment" />
         <activity android:name="com.example.rizwan444.das.SearchDoctor" />
         <activity android:name="com.example.rizwan444.das.Appointment" />
+        <activity android:name="com.example.rizwan444.das.UserProfile" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

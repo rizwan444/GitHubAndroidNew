@@ -22,7 +22,8 @@
         <activity android:name=".FragmentsMeme" />
         <activity android:name=".Singlefragment" />
         <activity android:name=".SearchDoctor" />
-        <activity android:name=".Appointment"></activity>
+        <activity android:name=".Appointment" />
+        <activity android:name=".UserProfile"></activity>
     </application>
 
 </manifest>

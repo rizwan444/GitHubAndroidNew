@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_user_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rizwan444.das.UserProfile">
+    <TextView
+        android:text="WELCOME"
+        android:id="@+id/txtV_UPWelcome"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="@color/TextVColorRed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/btn_UP_Appointments"
+        android:text="Appointments"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtV_UPWelcome"
+        android:layout_marginTop="25dp"
+        android:width="250dp"
+        android:background="@color/AddedColorBG1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <GridView
+        android:id="@+id/GrdV_UPApptmt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtV_UPWelcome"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:columnWidth="90dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        >
+
+    </GridView>
+
+</RelativeLayout>

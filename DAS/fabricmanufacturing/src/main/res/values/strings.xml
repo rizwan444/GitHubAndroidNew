@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">FabricManufacturing</string>
+    <color name="highlightedTextViewColor">#000088</color>
+    <color name="normalTextViewColor">#000044</color>
+    <color name="AddedColorBG1">#80cbc4</color>
+    <color name="AddedColorBtn1">#ce93d8</color>
+    <color name="AddedColorTF1">#f3e5f5</color>
+    <color name="TextVColorRed">#f44336</color>
+
+    <string-array name="SIZE_UNIT">
+        <item>Centimeter</item>
+        <item>Inches</item>
+        <item>Meter</item>
+    </string-array>
+    <string-array name="CUTTING_WASTAGE_VALUE">
+        <item>10.0</item>
+        <item>10.5</item>
+        <item>11</item>
+        <item>11.5</item>
+        <item>12</item>
+        <item>12.5</item>
+        <item>13</item>
+        <item>13.5</item>
+        <item>14</item>
+        <item>14.5</item>
+        <item>15</item>
+    </string-array>
+</resources>
