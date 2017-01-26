@@ -19,7 +19,8 @@
         <activity android:name=".WovenCalculation" />
         <activity android:name=".KnittedCalcultaion" />
         <activity android:name=".FinalCalculationKnitted" />
-        <activity android:name=".WastagesValues"></activity>
+        <activity android:name=".WastagesValues" />
+        <activity android:name=".FINALRESULTS"></activity>
     </application>
 
 </manifest>

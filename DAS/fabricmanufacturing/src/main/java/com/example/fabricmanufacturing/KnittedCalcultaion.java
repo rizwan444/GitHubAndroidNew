@@ -17,6 +17,10 @@ public class KnittedCalcultaion extends AppCompatActivity {
     Button btnSave;
     Spinner unit;
     EditText GSM,CW,BL,SL;
+    String gcm,cw,bl,sl;
+    Float gcmf,cwf,blf,slf;
+    float inchconvert=2.54f;
+    double gcmf1,cwf1,blf1,slf1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,18 +53,83 @@ public class KnittedCalcultaion extends AppCompatActivity {
                 }
                 else
                 {
-                    //Saving the values of Dimensions,Unit and GSM
-                    SharedPreferences sharepref= getSharedPreferences("DimensionInfo", Context.MODE_PRIVATE);
-                    SharedPreferences.Editor editor= sharepref.edit();
-                    editor.putString("GSM",GSM.getText().toString());
-                    editor.putString("UNIT",CW.getText().toString());
-                    editor.putString("CW",CW.getText().toString());
-                    editor.putString("BL",BL.getText().toString());
-                    editor.putString("SL",SL.getText().toString());
-                    editor.apply();
+                    if(unit.getSelectedItem().toString().matches("Centimeter")){
+                        cw=CW.getText().toString();
+                        cwf=Float.parseFloat(cw);
+                        cwf=cwf/100;
 
-                    Intent intent= new Intent(KnittedCalcultaion.this, FinalCalculationKnitted.class);
-                    startActivity(intent);
+                        bl=BL.getText().toString();
+                        blf=Float.parseFloat(cw);
+                        blf=blf/100;
+
+                        sl=SL.getText().toString();
+                        slf=Float.parseFloat(cw);
+                        slf=slf/100;
+
+                        //Saving the values of Dimensions,Unit and GSM
+                        SharedPreferences sharepref = getSharedPreferences("DimensionInfo", Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = sharepref.edit();
+                        editor.putString("GSM", GSM.getText().toString());
+                        editor.putString("UNIT", unit.getSelectedItem().toString());
+                        editor.putString("CW",cwf.toString());
+                        editor.putString("BL",blf.toString());
+                        editor.putString("SL", slf.toString());
+                        editor.apply();
+                        Intent intent= new Intent(KnittedCalcultaion.this, FinalCalculationKnitted.class);
+                        startActivity(intent);
+
+                    }
+                    else if(unit.getSelectedItem().toString().matches("Inches")){
+
+                        Toast.makeText(KnittedCalcultaion.this, "This Finction is Under Development", Toast.LENGTH_SHORT).show();
+
+
+                        cw=CW.getText().toString();
+                        cwf=Float.parseFloat(cw);
+                        cwf=cwf*0.0254f;
+
+
+                        bl=BL.getText().toString();
+                        blf=Float.parseFloat(cw);
+                        blf=blf*0.0254f;
+
+                        sl=SL.getText().toString();
+                        slf=Float.parseFloat(cw);
+                        slf=slf*0.0254f;
+
+                        //Saving the values of Dimensions,Unit and GSM
+                        SharedPreferences sharepref = getSharedPreferences("DimensionInfo", Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = sharepref.edit();
+                        editor.putString("GSM", GSM.getText().toString());
+                        editor.putString("UNIT", unit.getSelectedItem().toString());
+                        editor.putString("CW",cwf.toString());
+                        editor.putString("BL",blf.toString());
+                        editor.putString("SL", slf.toString());
+                        editor.apply();
+
+
+
+                        Intent intent= new Intent(KnittedCalcultaion.this, FinalCalculationKnitted.class);
+                        startActivity(intent);
+
+                    }
+                    else {
+
+
+                        //Saving the values of Dimensions,Unit and GSM
+                        SharedPreferences sharepref = getSharedPreferences("DimensionInfo", Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = sharepref.edit();
+                        editor.putString("GSM", GSM.getText().toString());
+                        editor.putString("UNIT",unit.getSelectedItem().toString());
+                        editor.putString("CW", CW.getText().toString());
+                        editor.putString("BL", BL.getText().toString());
+                        editor.putString("SL", SL.getText().toString());
+                        editor.apply();
+                        Intent intent= new Intent(KnittedCalcultaion.this, FinalCalculationKnitted.class);
+                        startActivity(intent);
+                    }
+
+
 
                 }
 

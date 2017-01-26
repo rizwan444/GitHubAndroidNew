@@ -36,15 +36,7 @@
         android:layout_below="@+id/EditTxt_KCal_GSM"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-    <Spinner
-        android:id="@+id/Spinner_KCalc_SizeUnit"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/txtV_KCal_Msg2"
-        android:layout_marginTop="18dp"
-        android:minWidth="130dp"
-        android:entries="@array/SIZE_UNIT"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"> </Spinner>
+
     <EditText
         android:id="@+id/EditTxt_KCal_CW"
         android:layout_width="wrap_content"
@@ -82,5 +74,15 @@
         android:layout_below="@+id/EditTxt_KCal_CW"
         android:layout_alignLeft="@+id/EditTxt_KCal_CW"
         android:layout_alignStart="@+id/EditTxt_KCal_CW" />
+
+    <Spinner
+        android:id="@+id/Spinner_KCalc_SizeUnit"
+        android:layout_marginTop="18dp"
+        android:minWidth="130dp"
+        android:entries="@array/SIZE_UNIT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtV_KCal_Msg2"
+        android:layout_centerHorizontal="true"> </Spinner>
 
 </RelativeLayout>

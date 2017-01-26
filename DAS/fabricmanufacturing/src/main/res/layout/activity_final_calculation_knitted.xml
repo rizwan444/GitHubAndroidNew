@@ -17,20 +17,40 @@
         android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtV_FCal_Label"
+        android:layout_below="@+id/txtV_FCal_Msg1"
+        android:layout_marginTop="10dp"
+        android:text="SELECT UNIT"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:id="@+id/Spinner_FCal_InputUnit"
+
+        android:layout_below="@+id/txtV_FCal_Msg1"
+        android:minWidth="150dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="10dp"
+        android:entries="@array/SIZE_UNIT"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"></Spinner>
 
     <TextView
     android:id="@+id/txtV_FCal_Label1"
     android:text="ALLOWANCES FOR CHEST"
     android:textSize="18dp"
-    android:layout_below="@+id/txtV_FCal_Msg1"
-    android:layout_marginTop="25dp"
+    android:layout_below="@+id/Spinner_FCal_InputUnit"
+    android:layout_marginTop="20dp"
     android:textStyle="bold"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content" />
     <EditText
         android:id="@+id/EditTxt_FCal_SAL_CW"
         android:layout_below="@+id/txtV_FCal_Label1"
-        android:width="170dp"
+
         android:layout_marginTop="20dp"
         android:hint="Seaming_A LEFT"
         android:layout_marginLeft="0dp"
@@ -39,7 +59,7 @@
     <EditText
         android:id="@+id/EditTxt_FCal_SAR_CW"
         android:layout_below="@+id/txtV_FCal_Label1"
-        android:width="170dp"
+
         android:layout_marginTop="20dp"
         android:hint="Seamin_A RIGHT"
         android:layout_marginLeft="178dp"
@@ -51,7 +71,7 @@
         android:text="ALLOWANCES FOR BODY LENGTH"
         android:textSize="18dp"
         android:layout_below="@+id/EditTxt_FCal_SAR_CW"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="20dp"
         android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
@@ -59,7 +79,7 @@
         android:id="@+id/EditTxt_FCal_SA_BL"
         android:layout_below="@+id/txtV_FCal_Label2"
         android:width="170dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:hint="Seaming Allowance"
         android:layout_marginLeft="0dp"
         android:layout_width="wrap_content"
@@ -67,8 +87,8 @@
     <EditText
         android:id="@+id/EditTxt_FCal_HA_BL"
         android:layout_below="@+id/txtV_FCal_Label2"
-        android:width="170dp"
-        android:layout_marginTop="20dp"
+
+        android:layout_marginTop="10dp"
         android:hint="Heaming Allowance"
         android:layout_marginLeft="178dp"
         android:layout_width="wrap_content"
@@ -79,7 +99,7 @@
         android:text="ALLOWANCES FOR SLEEVES LENGTH"
         android:textSize="18dp"
         android:layout_below="@+id/EditTxt_FCal_SA_BL"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="20dp"
         android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
@@ -87,7 +107,7 @@
         android:id="@+id/EditTxt_FCal_SA_SL"
         android:layout_below="@+id/txtV_FCal_Label3"
         android:width="170dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:hint="Seaming Allowance"
         android:layout_marginLeft="0dp"
         android:layout_width="wrap_content"
@@ -96,7 +116,7 @@
         android:id="@+id/EditTxt_FCal_HA_SL"
         android:layout_below="@+id/txtV_FCal_Label3"
         android:width="170dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:hint="Heaming Allowance"
         android:layout_marginLeft="178dp"
         android:layout_width="wrap_content"
@@ -104,7 +124,7 @@
     <Button
         android:id="@+id/btn_FCal_Save"
         android:text="SAVE"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:width="200dp"
         android:textStyle="bold"
         android:textSize="35dp"

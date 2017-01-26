@@ -25,4 +25,37 @@
         <item>14.5</item>
         <item>15</item>
     </string-array>
+    <string-array name="BLEACHING_DYEING">
+        <item>BLEACHING</item>
+        <item>DYEING</item>
+        <item>MANUAL_DYEING</item>
+        <item>MANUAL_BLEACHING</item>
+
+    </string-array>
+    <string-array name="BLEACHING_VALUES">
+
+        <item> </item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+
+    </string-array>
+    <string-array name="DYEING_VALUES">
+        <item> </item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+
+    </string-array>
+    <string-array name="KNITTING_VALUES">
+        <item>2.0</item>
+        <item>2.1</item>
+        <item>2.2</item>
+        <item>2.3</item>
+        <item>2.4</item>
+        <item>2.5</item>
+
+    </string-array>
+
+
 </resources>
