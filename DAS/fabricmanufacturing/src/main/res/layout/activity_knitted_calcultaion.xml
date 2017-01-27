@@ -8,15 +8,18 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.fabricmanufacturing.KnittedCalcultaion">
+    tools:context="com.example.fabricmanufacturing.KnittedCalcultaion"
+    android:background="@drawable/textilebg1">
     <TextView
         android:id="@+id/txtV_KCal_Msg1"
         android:text="FABRIC CALCULATOR"
-        android:textSize="20dp"
+        android:textSize="30dp"
         android:textStyle="bold"
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColor="@color/PurpleShade"
+        />
     <EditText
         android:id="@+id/EditTxt_KCal_GSM"
         android:layout_below="@+id/txtV_KCal_Msg1"
@@ -25,17 +28,22 @@
         android:layout_marginTop="25dp"
         android:hint="GSM VALUE 100,200 etc..."
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColor="@color/Black"
+        android:background="@color/PurpleShade"
+        android:textSize="25dp"/>
     <TextView
         android:id="@+id/txtV_KCal_Msg2"
         android:text="DIMENSIONS"
         android:textStyle="bold"
-        android:textSize="18dp"
+        android:textSize="35dp"
         android:layout_marginTop="22dp"
-        android:layout_centerHorizontal="true"
         android:layout_below="@+id/EditTxt_KCal_GSM"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColor="@color/PurpleShade"
+        android:background="@color/DarkRed"
+        />
 
     <EditText
         android:id="@+id/EditTxt_KCal_CW"
@@ -45,7 +53,10 @@
         android:layout_below="@+id/Spinner_KCalc_SizeUnit"
         android:layout_marginTop="15dp"
         android:width="200dp"
-        android:hint="Chest Width"/>
+        android:hint="Chest Width"
+        android:textColor="@color/Black"
+        android:background="@color/PurpleShade"
+        android:textSize="25dp"/>
 
     <EditText
         android:id="@+id/EditTxt_KCal_SL"
@@ -55,14 +66,20 @@
         android:layout_below="@+id/EditTxt_KCal_BL"
         android:layout_marginTop="15dp"
         android:width="200dp"
-        android:hint="Sleeve Length"/>
+        android:hint="Sleeve Length"
+        android:textColor="@color/Black"
+        android:background="@color/PurpleShade"
+        android:textSize="25dp"/>
     <Button
         android:id="@+id/btn_KCal_saveDimensions"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/EditTxt_KCal_SL"
         android:text="Save"
+        android:textSize="30dp"
+        android:textColor="@color/DarkRed"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:width="200dp"/>
 
     <EditText
         android:id="@+id/EditTxt_KCal_BL"
@@ -73,7 +90,10 @@
         android:hint="Body Length"
         android:layout_below="@+id/EditTxt_KCal_CW"
         android:layout_alignLeft="@+id/EditTxt_KCal_CW"
-        android:layout_alignStart="@+id/EditTxt_KCal_CW" />
+        android:layout_alignStart="@+id/EditTxt_KCal_CW"
+        android:textColor="@color/Black"
+        android:background="@color/PurpleShade"
+        android:textSize="25dp"/>
 
     <Spinner
         android:id="@+id/Spinner_KCalc_SizeUnit"
@@ -81,8 +101,11 @@
         android:minWidth="130dp"
         android:entries="@array/SIZE_UNIT"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_below="@+id/txtV_KCal_Msg2"
-        android:layout_centerHorizontal="true"> </Spinner>
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/Black"
+        android:background="@color/PurpleShade"
+        android:textSize="25dp"> </Spinner>
 
 </RelativeLayout>

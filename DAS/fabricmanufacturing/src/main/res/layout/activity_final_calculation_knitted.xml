@@ -8,7 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.fabricmanufacturing.FinalCalculationKnitted">
+    tools:context="com.example.fabricmanufacturing.FinalCalculationKnitted"
+    android:background="@drawable/textilebg1">
     <TextView
         android:id="@+id/txtV_FCal_Msg1"
         android:text="ALLOWANCES"
@@ -16,20 +17,26 @@
         android:layout_centerHorizontal="true"
         android:textStyle="bold"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColor="@color/PurpleShade"/>
     <TextView
         android:id="@+id/txtV_FCal_Label"
         android:layout_below="@+id/txtV_FCal_Msg1"
         android:layout_marginTop="10dp"
         android:text="SELECT UNIT"
+        android:background="@color/DarkRed"
         android:textStyle="bold"
         android:textSize="20dp"
         android:layout_marginLeft="0dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColor="@color/PurpleShade"/>
     <Spinner
         android:id="@+id/Spinner_FCal_InputUnit"
-
+        android:textColor="@color/Black"
+        android:background="@color/PurpleShade"
+        android:textSize="20dp"
+        android:textStyle="bold"
         android:layout_below="@+id/txtV_FCal_Msg1"
         android:minWidth="150dp"
         android:layout_marginLeft="135dp"
@@ -41,17 +48,22 @@
     <TextView
     android:id="@+id/txtV_FCal_Label1"
     android:text="ALLOWANCES FOR CHEST"
-    android:textSize="18dp"
+    android:textSize="20dp"
     android:layout_below="@+id/Spinner_FCal_InputUnit"
     android:layout_marginTop="20dp"
     android:textStyle="bold"
+    android:background="@color/DarkRed"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content" />
+    android:layout_height="wrap_content"
+    android:textColor="@color/PurpleShade"/>
     <EditText
         android:id="@+id/EditTxt_FCal_SAL_CW"
         android:layout_below="@+id/txtV_FCal_Label1"
-
+        android:textColor="@color/Black"
+        android:background="@color/PurpleShade"
+        android:textSize="20dp"
         android:layout_marginTop="20dp"
+        android:textStyle="bold"
         android:hint="Seaming_A LEFT"
         android:layout_marginLeft="0dp"
         android:layout_width="wrap_content"
@@ -59,7 +71,10 @@
     <EditText
         android:id="@+id/EditTxt_FCal_SAR_CW"
         android:layout_below="@+id/txtV_FCal_Label1"
-
+        android:textColor="@color/Black"
+        android:background="@color/PurpleShade"
+        android:textSize="20dp"
+        android:textStyle="bold"
         android:layout_marginTop="20dp"
         android:hint="Seamin_A RIGHT"
         android:layout_marginLeft="178dp"
@@ -73,23 +88,33 @@
         android:layout_below="@+id/EditTxt_FCal_SAR_CW"
         android:layout_marginTop="20dp"
         android:textStyle="bold"
+        android:background="@color/DarkRed"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColor="@color/PurpleShade"/>
     <EditText
         android:id="@+id/EditTxt_FCal_SA_BL"
         android:layout_below="@+id/txtV_FCal_Label2"
         android:width="170dp"
         android:layout_marginTop="10dp"
-        android:hint="Seaming Allowance"
+        android:hint="Seaming_A"
+        android:textColor="@color/Black"
+        android:background="@color/PurpleShade"
+        android:textSize="20dp"
+        android:textStyle="bold"
         android:layout_marginLeft="0dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        />
     <EditText
         android:id="@+id/EditTxt_FCal_HA_BL"
         android:layout_below="@+id/txtV_FCal_Label2"
-
+        android:textColor="@color/Black"
+        android:background="@color/PurpleShade"
+        android:textSize="20dp"
+        android:textStyle="bold"
         android:layout_marginTop="10dp"
-        android:hint="Heaming Allowance"
+        android:hint="Heaming_A"
         android:layout_marginLeft="178dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
@@ -101,26 +126,37 @@
         android:layout_below="@+id/EditTxt_FCal_SA_BL"
         android:layout_marginTop="20dp"
         android:textStyle="bold"
+        android:background="@color/DarkRed"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColor="@color/PurpleShade"
+        />
     <EditText
         android:id="@+id/EditTxt_FCal_SA_SL"
         android:layout_below="@+id/txtV_FCal_Label3"
         android:width="170dp"
         android:layout_marginTop="10dp"
-        android:hint="Seaming Allowance"
+        android:hint="Seaming_A"
         android:layout_marginLeft="0dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColor="@color/Black"
+        android:background="@color/PurpleShade"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
     <EditText
         android:id="@+id/EditTxt_FCal_HA_SL"
         android:layout_below="@+id/txtV_FCal_Label3"
         android:width="170dp"
         android:layout_marginTop="10dp"
-        android:hint="Heaming Allowance"
+        android:hint="Heaming_A"
         android:layout_marginLeft="178dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColor="@color/Black"
+        android:background="@color/PurpleShade"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
     <Button
         android:id="@+id/btn_FCal_Save"
         android:text="SAVE"
@@ -131,7 +167,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/EditTxt_FCal_HA_SL"/>
+        android:layout_below="@+id/EditTxt_FCal_HA_SL"
+        android:textColor="@color/DarkRed"
+        />
 
 
 

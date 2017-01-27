@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="e92fc9b4c286a9ca9bfb7073f0c637419faa8db7">
+        sha1="f9a84cf22e0c8bb67b02df223e5f2cb0462e7b20">
         <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\fabricmanufacturing\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_af8f7b19dfacbea8163511992b34d160175e4cf9\classes.dex" />
     </item>
     <item
@@ -70,7 +70,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="4fe285103448f4b39f553c4ac61568e41a46b982">
+        sha1="3ab31d417cd15bb19d11d27c2aff4b64bd87299e">
         <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\fabricmanufacturing\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_db2eca4b912ded6254e726c11875eb01dbbec1f9\classes.dex" />
     </item>
     <item

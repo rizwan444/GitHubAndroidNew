@@ -8,7 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.fabricmanufacturing.WastagesValues">
+    tools:context="com.example.fabricmanufacturing.WastagesValues"
+    android:background="@drawable/textilebg1">
 
     <TextView
         android:id="@+id/txtV_WValues_Msg1"
@@ -17,7 +18,8 @@
         android:layout_centerHorizontal="true"
         android:textStyle="bold"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColor="@color/PurpleShade"/>
 
     <TextView
         android:id="@+id/txtV_WValues_label1"
@@ -27,16 +29,23 @@
         android:layout_marginTop="35dp"
         android:layout_width="wrap_content"
         android:textStyle="bold"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColor="@color/PurpleShade"
+
+        android:background="@color/DarkRed"/>
     <Spinner
         android:id="@+id/Spinner_WValues_SandC_Wastages"
         android:layout_marginTop="35dp"
         android:minWidth="30dp"
         android:layout_marginLeft="250dp"
         android:entries="@array/CUTTING_WASTAGE_VALUE"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/txtV_WValues_Msg1"> </Spinner>
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txtV_WValues_Msg1"
+        android:textColor="@color/Black"
+        android:background="@color/PurpleShade"
+        android:textSize="20dp"
+        android:textStyle="bold"> </Spinner>
 
     <TextView
         android:id="@+id/txtV_WValues_label2"
@@ -46,7 +55,9 @@
         android:layout_marginTop="30dp"
         android:layout_width="wrap_content"
         android:textStyle="bold"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColor="@color/PurpleShade"
+        android:background="@color/DarkRed"/>
     <Spinner
         android:id="@+id/Spinner_WValues_BleachDye"
         android:layout_marginTop="30dp"
@@ -54,8 +65,12 @@
         android:layout_marginLeft="200dp"
         android:entries="@array/BLEACHING_DYEING"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/txtV_WValues_label1"> </Spinner>
+        android:layout_height="35dp"
+        android:layout_below="@+id/txtV_WValues_label1"
+        android:textColor="@color/Black"
+        android:background="@color/PurpleShade"
+        android:textSize="20dp"
+        android:textStyle="bold"> </Spinner>
     <Spinner
         android:id="@+id/Spinner_WValues_Bleach_Value"
         android:layout_marginTop="30dp"
@@ -63,8 +78,12 @@
         android:layout_marginLeft="200dp"
         android:entries="@array/BLEACHING_VALUES"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/Spinner_WValues_BleachDye"> </Spinner>
+        android:layout_height="35dp"
+        android:layout_below="@+id/Spinner_WValues_BleachDye"
+        android:textColor="@color/Black"
+        android:background="@color/PurpleShade"
+        android:textSize="20dp"
+        android:textStyle="bold"> </Spinner>
     <Spinner
         android:id="@+id/Spinner_WValues_Dye_Value"
         android:layout_marginTop="30dp"
@@ -72,8 +91,12 @@
         android:layout_marginLeft="20dp"
         android:entries="@array/DYEING_VALUES"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/txtV_WValues_label2"> </Spinner>
+        android:layout_height="35dp"
+        android:layout_below="@+id/Spinner_WValues_BleachDye"
+        android:textColor="@color/Black"
+        android:background="@color/PurpleShade"
+        android:textSize="20dp"
+        android:textStyle="bold"> </Spinner>
     <TextView
         android:id="@+id/txtV_WValues_label3"
         android:textSize="20dp"
@@ -82,7 +105,9 @@
         android:layout_marginTop="40dp"
         android:layout_width="wrap_content"
         android:textStyle="bold"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColor="@color/PurpleShade"
+        android:background="@color/DarkRed"/>
     <Spinner
         android:id="@+id/Spinner_WValues_Knitting"
         android:layout_marginTop="40dp"
@@ -90,8 +115,12 @@
         android:layout_marginLeft="200dp"
         android:entries="@array/KNITTING_VALUES"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/Spinner_WValues_Dye_Value"> </Spinner>
+        android:layout_height="35dp"
+        android:layout_below="@+id/Spinner_WValues_Dye_Value"
+        android:textColor="@color/Black"
+        android:background="@color/PurpleShade"
+        android:textSize="20dp"
+        android:textStyle="bold"> </Spinner>
 
     <Button
         android:id="@+id/btn_WValues_btnCalculate"
@@ -103,7 +132,8 @@
         android:textStyle="bold"
         android:textSize="20dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColor="@color/DarkRed"/>
 
     <TextView
         android:text="TextView"
@@ -113,7 +143,9 @@
         android:layout_alignRight="@+id/txtV_WValues_label2"
         android:layout_alignEnd="@+id/txtV_WValues_label2"
         android:layout_marginTop="49dp"
-        android:id="@+id/check1" />
+        android:background="@color/DarkRed"
+        android:id="@+id/check1"
+        android:textColor="@color/PurpleShade"/>
 
 
 </RelativeLayout>
