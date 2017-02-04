@@ -3,39 +3,111 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\rizwan444\AndroidStudioProjects\DAS\fabricmanufacturing\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\fabricmanufacturing\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_acec840b7c5b9f99f3c35ad4a0d6d07a662a6b2d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rizwan444\AndroidStudioProjects\DAS\fabricmanufacturing\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f9a84cf22e0c8bb67b02df223e5f2cb0462e7b20">
-        <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\fabricmanufacturing\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_af8f7b19dfacbea8163511992b34d160175e4cf9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rizwan444\AndroidStudioProjects\DAS\fabricmanufacturing\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jar="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\fabricmanufacturing\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_86caa0d53b729e587c9e971eddb752f0e2ecf28c\classes.dex" />
+        <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_e64d4fae9177efec2727bf1dd271d01d74517d42\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\rizwan444\AndroidStudioProjects\DAS\fabricmanufacturing\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jar="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\fabricmanufacturing\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_d13802d9c2aa1933b0b91bee1d7c649d3b5038bc\classes.dex" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_3b632f03d840b88884e8e41ef4382021418157a7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.0_c502ebdf983754a6741962d808148d849113daf7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\exploded-aar\com.android.support\design\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.1.0_72c1ff50f9be8dde82c22c04a28efd730b225293\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_a04a2d9780daa9e121348336d36f65f90452605b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.0.1_7923fc9cadc200f979d51e2957b5f1dfae330d43\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bd3b5a92fabb1c200b5c709eb75017f84fb858ce">
+        <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_50df98a16d14a02285d17186278f26cd9c7e5158\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_dd8b2d3e75d4f6f21f78d0f37311373e347dee78\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.0.1_b92647f08763c47623a4fa56b3d2a36b07508d13\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_a18d61bb1d14ae757c9edb4e8202f8e7b9db104f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_708ed7519cb5b6a82ad2a4eb14ab519db2538467\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c4231ce071d55804269b331feec26c69457fd361">
+        <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_ee7436b64ef4ae7a83d9661cb801afc983b39727\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -44,70 +116,61 @@
         optimize="true"
         revision="25.0.2"
         sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\fabricmanufacturing\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_faf03ebf0eea217087dac9f5b11eeab9cabd98fa\classes.dex" />
+        <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_faf03ebf0eea217087dac9f5b11eeab9cabd98fa\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\rizwan444\AndroidStudioProjects\DAS\fabricmanufacturing\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\fabricmanufacturing\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_23c2d741dfea90e201e3fccecf238a0502f7de0c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rizwan444\AndroidStudioProjects\DAS\fabricmanufacturing\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\fabricmanufacturing\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_fa61914eb0d78863cdaff8bc7d9fb5c47e1bfefd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rizwan444\AndroidStudioProjects\DAS\fabricmanufacturing\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3ab31d417cd15bb19d11d27c2aff4b64bd87299e">
-        <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\fabricmanufacturing\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_db2eca4b912ded6254e726c11875eb01dbbec1f9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rizwan444\AndroidStudioProjects\DAS\fabricmanufacturing\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\fabricmanufacturing\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_9c023469d90b8918d411056cf7058cb00c2e8c30\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rizwan444\AndroidStudioProjects\DAS\fabricmanufacturing\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\fabricmanufacturing\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_64612c737d6ec17c18918d576e76c31c6f3f5c06\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rizwan444\AndroidStudioProjects\DAS\fabricmanufacturing\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jar="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\fabricmanufacturing\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_f3544b461ee323d0f6f0acb9037cdce066d01fb4\classes.dex" />
+        <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_69283c061157271bb269af253ed77bd42299a573\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\rizwan444\AndroidStudioProjects\DAS\fabricmanufacturing\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jar="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\fabricmanufacturing\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_c6e273f222d59b218e6ed6b219bb87606978ef65\classes.dex" />
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_89c6ce91b1bdb343e4e46894fa8cc53d71849b9a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_af3ef6dec14acf318721e52065704629f4dbd88b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.0_89d6581a8cf21db44b9831a7da2dd593a90a50d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.0.1_22b181b189d4f31ec96e63d40a680a578cd54c46\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="C:\Users\rizwan444\AndroidStudioProjects\DAS\DAS_DOCTORS\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-10.0.1_a166fd62e7bf1b69d387ac8d115919c9a5068ee0\classes.dex" />
     </item>
 
 </items>

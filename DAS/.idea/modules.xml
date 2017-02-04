@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DAS.iml" filepath="$PROJECT_DIR$/DAS.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DAS_DOCTORS/DAS_DOCTORS.iml" filepath="$PROJECT_DIR$/DAS_DOCTORS/DAS_DOCTORS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-exam-preparation/android-exam-preparation.iml" filepath="$PROJECT_DIR$/android-exam-preparation/android-exam-preparation.iml" />
       <module fileurl="file://$PROJECT_DIR$/fabricmanufacturing/fabricmanufacturing.iml" filepath="$PROJECT_DIR$/fabricmanufacturing/fabricmanufacturing.iml" />
     </modules>
   </component>

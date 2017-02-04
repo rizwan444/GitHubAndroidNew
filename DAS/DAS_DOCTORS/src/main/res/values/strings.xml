@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DAS</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <color name="highlightedTextViewColor">#000088</color>
+    <color name="normalTextViewColor">#000044</color>
+    <color name="AddedColorBG1">#80cbc4</color>
+    <color name="AddedColorBtn1">#ce93d8</color>
+    <color name="AddedColorTF1">#f3e5f5</color>
+    <color name="TextVColorRed">#f44336</color>
+</resources>

@@ -1,1 +1,1 @@
-include ':app', ':fabricmanufacturing'
+include ':DAS_DOCTORS', ':fabricmanufacturing', ':android-exam-preparation'

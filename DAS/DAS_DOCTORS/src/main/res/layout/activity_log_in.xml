@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_log_in"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/AddedColorBG1"
+    tools:context="com.example.rizwan444.das.LogINActivity">
+
+    <TextView
+        android:text="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtV_Password"
+        android:layout_alignBaseline="@+id/editTxt_Password"
+        android:layout_alignBottom="@+id/editTxt_Password"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="LOG IN"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="282dp"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/btn_LogIn"
+        android:width="125dp"
+        android:background="@color/AddedColorBtn1"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editTxt_UserID"
+        android:hint="Email"
+        android:layout_alignTop="@+id/txtV_UserID"
+        android:layout_alignLeft="@+id/editTxt_Password"
+        android:layout_alignStart="@+id/editTxt_Password"
+        android:background="@color/AddedColorTF1"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_marginTop="59dp"
+        android:id="@+id/editTxt_Password"
+        android:hint="Password"
+        android:layout_below="@+id/editTxt_UserID"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp"
+        android:background="@color/AddedColorTF1"/>
+
+
+
+    <TextView
+        android:text="USER ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="119dp"
+        android:id="@+id/txtV_UserID"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/txtV_Password"
+        android:layout_alignEnd="@+id/txtV_Password" />
+</RelativeLayout>

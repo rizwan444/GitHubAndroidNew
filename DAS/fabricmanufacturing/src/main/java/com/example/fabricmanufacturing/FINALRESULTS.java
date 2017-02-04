@@ -16,7 +16,7 @@ public class FINALRESULTS extends AppCompatActivity {
         v1=(TextView) findViewById(R.id.txtV_FResult_Msg1);
         SharedPreferences sharepref32= getSharedPreferences("FinalResultSP", Context.MODE_PRIVATE);
         String finalresult=sharepref32.getString("FinalResult","Got Nothing....");
-        v1.setText("Total Fabric Required for Given Dimension and GSM value : "+finalresult);
+        v1.setText("Total Fabric Required for Given Dimension and GSM value : "+finalresult+" Grams");
 
 
     }

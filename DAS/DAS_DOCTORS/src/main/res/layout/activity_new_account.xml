@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_new_account"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/AddedColorBG1"
+    tools:context="com.example.rizwan444.das.NewAccountActivity">
+
+    <TextView
+        android:text="CREATE NEW ACCOUNT"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtV_SIGNUPActivity"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+
+        android:textAppearance="@style/boldText"
+        />
+    <TextView
+        android:text="Hellooo"
+        android:textColor="@color/highlightedTextViewColor"
+        android:id="@+id/txtV_checkLogIn"
+        android:layout_below="@+id/txtV_SIGNUPActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="First Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtV_SIGNUPActivity"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="35dp"
+        android:id="@+id/txtV_FName"
+        android:textStyle="normal|bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:text="Last Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtV_FName"
+        android:layout_alignLeft="@+id/txtV_FName"
+        android:layout_alignStart="@+id/txtV_FName"
+        android:layout_marginTop="40dp"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:id="@+id/txtV_LName" />
+
+    <TextView
+        android:text="Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtV_LName"
+        android:layout_alignLeft="@+id/txtV_LName"
+        android:layout_alignStart="@+id/txtV_LName"
+        android:layout_marginTop="49dp"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:id="@+id/txt_Email" />
+
+    <TextView
+        android:text="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/txt_Email"
+        android:layout_alignStart="@+id/txt_Email"
+        android:id="@+id/txtV_Password"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:text="Re-Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtV_Password"
+        android:layout_alignLeft="@+id/txtV_Password"
+        android:layout_alignStart="@+id/txtV_Password"
+        android:layout_marginTop="45dp"
+        android:id="@+id/txtV_RePassword"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"/>
+
+    <Button
+        android:text="Create Account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/btn_SIGNUP"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:width="225dp"
+        android:background="@color/AddedColorBtn1"/>
+
+    <TextView
+        android:text="Contact Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtV_ContactNumber"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:layout_above="@+id/btn_SIGNUP"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="33dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:background="@color/AddedColorTF1"
+        android:id="@+id/editTxt_Password"
+        android:hint="Min length 6"
+        android:layout_alignTop="@+id/txtV_Password"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:background="@color/AddedColorTF1"
+        android:id="@+id/editTxt_Email"
+        android:hint="123edu@ntu.pk"
+        android:layout_alignBottom="@+id/txt_Email"
+        android:layout_alignLeft="@+id/editTxt_Password"
+        android:layout_alignStart="@+id/editTxt_Password" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:background="@color/AddedColorTF1"
+        android:id="@+id/editTxt_CntctNumber"
+        android:hint="03xx-XXXXXXX"
+        android:layout_alignBottom="@+id/txtV_ContactNumber"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:background="@color/AddedColorTF1"
+
+        android:id="@+id/editTxt_FName"
+        android:hint="First Name"
+        android:layout_alignBottom="@+id/txtV_FName"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:background="@color/AddedColorTF1"
+        android:id="@+id/editTxt_LName"
+        android:hint="Last Name"
+        android:layout_alignTop="@+id/txtV_LName"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:background="@color/AddedColorTF1"
+        android:id="@+id/editTxt_RePassword"
+        android:hint="Verify Password"
+        android:layout_alignBottom="@+id/txtV_RePassword"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
